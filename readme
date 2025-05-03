@@ -1,0 +1,47 @@
+***** Welcome to BATTLESAURS - TURN-BASED BATTLER *****
+
+Relative to the Honors Project Contract, several changes and additions have been made to better the experience.
+
+The following includes information that may help understand this program.
+I RECOMMEND A PLAY THROUGH BEFORE FULLY READING.
+
+Player is prompted with 3 character choices: Triceratops, Ankylosaurus, and Velociraptor.
+Computer is given a random choice of the 3 above + 2 new dinosaurs: Tyrannosaurs Rex and Compsognathus "Compy" Pack.
+Program will remain active until Player or Computer reach 0 HP. There will be no limit on turns.
+
+** NOTE **
+Each Dinosaur has been both buffed and "nerfed" to enhance gameplay according.
+These are intended to be realistic. (If you could not tell thus far, I love dinosaurs).
+
+** CONDITIONS **
+
+Player will have 5 choices of actions, 4 for attacks and 1 for recovering respectively:
+Charge, Stomp, Kick, Bite, and Rest.
+
+DEFAULTS
+Charge deals 15 flat dmg.
+Stomp deals 5 flat dmg.
+Kick deals 10 flat dmg.
+Bite deals 15 flat dmg.
+Rest will restore 10 flat HP.
+
+** NOTE **
+T-REX and COMPY PACK will have more details as they are meant to be Non-Playable Characters.
+
+TYRANNOSAURUS REX
+Charge VS ALL = 50% chance to stun opponent. Stuns cause a turn to be skipped.
+Stomp VS Compy Pack = 50% success; Deal 30 flat dmg.
+Kick VS ALL = Deal 0 dmg to opponent.
+Bite VS ALL = Deal 25 flat dmg to opponent.
+Dodge Rate: 0% - ALL attacks will hit.
+
+TRICERATOPS
+Bites VS ALL = Maximum of 10 dmg (1-10 range).
+Charge VS ALL = +1-5 dmg to flat rate (16-20 total); 50% chance to stun opponent. Stuns cause a turn to be skipped.
+Dodge Rate: 10%
+
+ANKYLOSAURUS
+Kick becomes Whip.
+Whip VS ALL = deal 20 flat dmg.
+ALL DMG RECEIVED REDUCED 25%
+Dodge Rate: 0% - ALL attacks will hit.
