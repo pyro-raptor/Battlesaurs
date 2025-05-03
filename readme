@@ -25,23 +25,36 @@ Kick deals 10 flat dmg.
 Bite deals 15 flat dmg.
 Rest will restore 10 flat HP.
 
+T-REX = __ HP
+TRIKE = __ HP
+ANKYLO = __ HP
+RAPTOR = __ HP
+COMPY PACK = __ HP
+
 ** NOTE **
-T-REX and COMPY PACK will have more details as they are meant to be Non-Playable Characters.
+T-REX and COMPY PACK will have more details as they are Non-Playable Characters.
 
+-- COMPUTER EXCLUSIVE --
 TYRANNOSAURUS REX
-Charge VS ALL = 50% chance to stun opponent. Stuns cause a turn to be skipped.
-Stomp VS Compy Pack = 50% success; Deal 30 flat dmg.
-Kick VS ALL = Deal 0 dmg to opponent.
+Stomp VS ALL = Deal 20 flat dmg.
 Bite VS ALL = Deal 25 flat dmg to opponent.
-Dodge Rate: 0% - ALL attacks will hit.
+SPECIAL: 30% chance to stun opponent. Opponent's next turn will be skipped.
 
+COMPSOGNATHUS PACK
+Charge, Stomp, Kick VS ALL = Deal 0 dmg to opponent.
+Bite VS ALL = Deal 25 flat dmg to opponent.
+SPECIAL: Dodge Rate = 50%
+
+-- PLAYER & COMPUTER --
 TRICERATOPS
-Bites VS ALL = Maximum of 10 dmg (1-10 range).
-Charge VS ALL = +1-5 dmg to flat rate (16-20 total); 50% chance to stun opponent. Stuns cause a turn to be skipped.
-Dodge Rate: 10%
+Charge VS ALL = +1-5 dmg to flat rate (16-20 total);
+SPECIAL: 50% chance to stun opponent. Opponent's next turn will be skipped.
 
 ANKYLOSAURUS
-Kick becomes Whip.
-Whip VS ALL = deal 20 flat dmg.
-ALL DMG RECEIVED REDUCED 25%
-Dodge Rate: 0% - ALL attacks will hit.
+Kick becomes Whip; Whip VS ALL = Deal 20 flat dmg.
+SPECIAL: ALL DMG RECEIVED REDUCED 25%
+
+VELOCIRAPTOR
+Kick VS ALL = Deal 15 flat dmg.
+Bite VS ALL = Deal 20 flat dmg.
+SPECIAL: Dodge Rate = 25%
