@@ -1,8 +1,10 @@
 module dillag03.battlesaurs {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
+    requires javafx.media;
 
 
-    opens dillag03.battlesaurs to javafx.fxml;
-    exports dillag03.battlesaurs;
+    opens Battlesaurs to javafx.fxml;
+    exports Battlesaurs;
 }

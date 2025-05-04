@@ -1,0 +1,37 @@
+.root {
+    -fx-background-color: #c5ddc5;
+}
+
+.label {
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-text-fill: #29652c
+}
+
+.button {
+    -fx-background-color: #8abc8c;
+    -fx-text-fill: #245726;
+    -fx-font-size: 14px;
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-weight: bold;
+    -fx-border-color: #518e55;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 4px;
+    -fx-padding: 8px 12px;
+}
+
+.button:hover{
+    -fx-background-color: #6ab56d;
+    -fx-border-color: #347a37;
+}
+
+.text-area {
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-size: 14px;
+    -fx-text-fill: #5c1212;
+
+    -fx-border-color: #a6945f;
+    -fx-border-width: 4;
+}
+
